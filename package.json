@@ -20,5 +20,8 @@
     "ts-jest": "^24.2.0",
     "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.7.3"
+  },
+  "devDependencies": {
+    "mock-http": "^1.0.2"
   }
 }
