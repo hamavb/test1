@@ -8,11 +8,13 @@
     "build": "yarn clean && tsc",
     "start": "node build/server.js",
     "clean": "rimraf build",
-    "test": "jest --detectOpenHandles"
+    "test": "jest --detectOpenHandles",
+    "deploy": "yarn build && cp now.json package.json build && cd build && now"
   },
   "dependencies": {
     "express": "^4.17.1",
     "node-fetch": "^2.6.0",
+    "now": "^16.7.0",
     "rimraf": "^3.0.0",
     "typescript": "^3.7.3"
   },
