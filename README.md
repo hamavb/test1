@@ -53,5 +53,5 @@ yarn test
 deploy to now cloud platform
 
 ```bash
-yarn test
+yarn deploy
 ```
