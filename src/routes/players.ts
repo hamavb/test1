@@ -5,7 +5,7 @@ import { HTTPError, Result } from "../helpers";
 
 export const playersRoute = Router();
 
-const REMOTE_ENDPOINT = pathToFileURL("assets/headtohead.json").href;
+const REMOTE_ENDPOINT = "https://eurosportdigital.github.io/eurosport-node-developer-recruitment/headtohead.json";
 const playerService = new Player(REMOTE_ENDPOINT);
 
 playersRoute.get(
