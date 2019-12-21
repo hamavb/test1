@@ -4,10 +4,10 @@ this nodejs application server exposes two endpoints `/players` and `players/:pl
 
 ## used technologies
 
-* nodejs
-* typescript
-* express
-* jest
+- nodejs
+- typescript
+- express
+- jest
 
 ## developement
 
@@ -45,6 +45,12 @@ yarn start
 ```
 
 start the tests
+
+```bash
+yarn test
+```
+
+deploy to now cloud platform
 
 ```bash
 yarn test
