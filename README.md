@@ -2,6 +2,8 @@
 
 this nodejs application server exposes two endpoints `/players` and `players/:playerId` serves respectively the players list and a specific player.
 
+deployed version of this application https://test.hamavb.now.sh/players
+
 ## used technologies
 
 - nodejs
